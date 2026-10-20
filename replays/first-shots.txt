@@ -1,0 +1,4 @@
+--pad start@2600x3/100
+--lightgun-timing 12710,1024,205
+--gun trigger@9000+4:160,100
+--gun trigger@9060+4:40,60

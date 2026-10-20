@@ -1,0 +1,5 @@
+--pad start@2600x3/100
+--gun option@9000+4
+--gun trigger@9010+4:159,90
+--gun trigger@9060+4:40,60
+--gun trigger@9120+4:250,120
