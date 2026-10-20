@@ -124,7 +124,12 @@ counts down, its crosshair goes where the gun points. On the way the kit
 learnt the game's script interpreter (tail branches to handlers a table
 names, and tails they share), GRAPHIX 20.45's read address and pixel
 calls, the 21.10 kernel's `IsMemReadable`, the audio folio's
-`WhereAttachment`, and the cel engine's uncoded 8-bit cels. See `TODO.md`.
+`WhereAttachment`, and the cel engine's uncoded 8-bit cels. Then **the
+user played it in the window** with the mouse as the gun: "it works
+perfectly ... the mouse is aligned perfectly" -- the first shooting level
+cleared (15 hits, 88% accuracy), the second one's grenades shot out of the
+air (`replays/first-play.txt`, which replays it field for field). See
+`TODO.md`.
 
 ## Documentation
 

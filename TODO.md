@@ -12,6 +12,7 @@ is at the bottom. Read the top, not the history.
 | recompiled | `launchme` 665 functions, `lmadm` 94, `format` 35; no seeds; self-test 0 failures |
 | `pfboot build/disc --boot --nvram build/nvram` | the logos, the title, the intro film, the attract loop through every kind of level: 100,000 fields with no stop |
 | `... $(cat replays/to-the-gun-level.txt)` | the title's menu, the intro, the first light gun level with its HUD |
+| the window | **the user's first play: "perfect", the mouse aligned** -- two shooting levels (`replays/first-play.txt`) |
 | the Gamegun | on the port behind the pad (`--lightgun`): shots land, rounds count down, the crosshair goes where the gun points (`--lightgun-timing 12710,1024,205`), the game's calibration holds with Opera's timing (`docs/03`) |
 | the kit | **d04785d** (`docs/10`): regressed on every other port, the same byte for byte |
 
@@ -37,7 +38,9 @@ reference traces, `reg/out-old` 2ae02a2's, `reg/out-new` d04785d's),
 
 ### 1. Play it in the window
 
-The user at the pad and the gun: the menus, the first levels of each kind
+Played by the user at the end of session 1: the first two shooting levels
+with the mouse as the gun, "perfect", the crosshair under the pointer
+(`replays/first-play.txt`). Next, the user at the pad and the gun: the menus, the first levels of each kind
 -- the shooting galleries, the fights with Phoenix, the maze, the car
 chase -- with `--record`, the presses kept in `replays/`. Every stop on
 the way read as before. Worth watching: whether the gun feels right with
@@ -111,4 +114,7 @@ fight) against the runtime's frames, as for the other ports.
   driverlet read whole, the game's handler and calibration; the kit's
   light gun, checked on the game's crosshair.
 * **The kit**: regressed on the six other ports, committed (d04785d) and
-  pushed; this repository published.
+  pushed; this repository published; every other port's submodule moved
+  to d04785d.
+* **The window**: the user played the first two shooting levels with the
+  mouse as the gun -- "perfect", the mouse aligned; the record replays it.

@@ -100,3 +100,10 @@ it), the left button is the trigger, the right the option button.
 `--record` writes the gun's presses as `--gun BUTTONS@FIELD+HELD:X,Y`, a
 new line each time the aim moves while a button is down, so the replay
 points the gun where the player did on each field the game reads it.
+
+The user played it so (session 1, the game's timing): "it works perfectly
+... the mouse is aligned perfectly", the mouse alone once in the game. The
+record, `replays/first-play.txt` (153 presses over 10,600 fields), replays
+it headless: the first level cleared at 1,700 points, its tally (15 hits,
+88% accuracy, super aim x2), the second level's rooftop, its grenades shot
+out of the air, 10,480 points and one round left.
