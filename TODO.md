@@ -71,11 +71,14 @@ fight) against the runtime's frames, as for the other ports.
   the session's brief ("a fine sessione pubblicheremo il repo nuovo
   pc-demolitionman e l'aggiornamento al repo 3dokit, con la riga del gioco
   in tabella e cosa ha regalato al kit").
+* (Session 1) The other ports' submodules: moved to d04785d and pushed, the
+  user's word (pc-crashnburn e5d8b19, PC-Immercenary 59fb785,
+  pc-doctorhauzer 68092d6, pc-escapefrommonstermanor e4abf3c,
+  pc-theneedforspeed 6552b0a).
 
 ## Questions for the user
 
-* The other ports' submodules still point at 2ae02a2; moving them to
-  d04785d (each one's traces are the same) is a commit and a push in each.
+* None open.
 
 ## Keep in mind
 
